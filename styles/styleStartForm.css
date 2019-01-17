@@ -1,0 +1,94 @@
+html {
+    background: url(images/cookies.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.formStyle {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    visibility: visible;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 7px 7px 5px yellow;
+}
+
+.formStyle:focus {
+    border: 3px solid green;
+}
+
+.label {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 10%;
+    width: 15%;
+    color: black;
+    text-align: left;
+    font-size: 1.5vw;
+    visibility: visible;
+    text-shadow: 3px 3px 6px yellow;
+}
+
+.labelTheme {
+    top: 40%;
+}
+
+.input {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    height: 17%;
+    width: 70%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.input:focus {
+    border: 1.5px solid green;
+}
+
+.select {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    height: 17%;
+    width: 70%;
+}
+
+.select:focus {
+    border: 1.5px solid green;
+}
+
+.buttonOk {
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    width: 30%;
+    height: 20%;
+    color: black;
+    font-size: 1.7vw;
+    text-align: center;
+    text-shadow: 3px 3px 6px yellow;
+    box-shadow: 7px 7px 5px #3A3939;
+    border-style: outset;
+    cursor: pointer;
+}
+
+.buttonOk:hover {
+    color: yellow;
+}
+
+.buttonOk:active {
+    color: yellow;
+    box-shadow: 0.5px 0.5px 0.5px #3A3939;
+    border-style: inset;
+}
