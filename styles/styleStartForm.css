@@ -24,6 +24,9 @@ html {
 .formStyle:focus {
     border: 3px solid green;
 }
+.darkFormStyle{
+     box-shadow: 7px 7px 5px grey;
+}
 
 .label {
     position: absolute;
